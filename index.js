@@ -5,7 +5,7 @@ function checkDataTypes(sh1, sh2, sh3) {
     console.log(typeof (sh2));
     console.log(typeof (sh3));
 }
-checkDataTypes(true)
+checkDataTypes()
 
 //  1.checkDataTypes Close
 
@@ -23,6 +23,15 @@ function checkLeapYear(year) {
 checkLeapYear();
 
 // 2.checkLeapYear Close
+
+// 3.evalNumbers Start
+
+function evalNumbers(nu1, nu2, z) {
+}
+
+evalNumbers()
+
+// 3.evalNumbers Close
 
 // 4.findLargest Here
 
