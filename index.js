@@ -9,6 +9,10 @@ checkDataTypes()
 
 // //  1.checkDataTypes Close
 
+
+
+
+
 // // 2.checkLeapYear Here 
 
 function checkLeapYear(year) {
@@ -24,23 +28,44 @@ checkLeapYear();
 
 // 2.checkLeapYear Close
 
+
+
+
 // 3.evalNumbers Start
 
 
-// function evalNumbers(num1, num2, oparation) {
-//     if (num1, num2, oparation) {
-//         console.log(num1 + num2)
-//     }
-//     else if (num1, num2, oparation) {
-//         console.log(num1 - num2)
-//     }
-// }
+function evalNumbers(num1, num2, operation) {
+    switch (operation) {
+        case "add":
+            console.log(num1 + num2);
+            break;
+        case "subtract":
+            console.log(num1 - num2);
+            break;
+        case "multiply":
+            console.log(num1 * num2);
+            break;
+        case "divide":
+            console.log(num1 / num2);
+            break;
+        case "modulus":
+            console.log(num1 % num2);
+            break;
+        default:
+            console.log("invalid Operations");
+    }
+}
 
-// evalNumbers()
+evalNumbers()
 
 // 3.evalNumbers Close
 
+
+
+
 // 4.findLargest Here
+
+
 
 function findLargest(num1, num2, num3,) {
     if (num1 > num2 && num1 > num3) {
@@ -55,6 +80,9 @@ function findLargest(num1, num2, num3,) {
 }
 
 findLargest()
+
+
+
 
 // 4.findLargest Close
 
