@@ -1,15 +1,15 @@
 //  1.checkDataTypes Start 
 
-function checkDataTypes(sh1, sh2, sh3) {
-    console.log(typeof (sh1));
-    console.log(typeof (sh2));
-    console.log(typeof (sh3));
+function checkDataTypes(type1, type2, type3) {
+    console.log(typeof (type1));
+    console.log(typeof (type2));
+    console.log(typeof (type3));
 }
 checkDataTypes()
 
-//  1.checkDataTypes Close
+// //  1.checkDataTypes Close
 
-// 2.checkLeapYear Here 
+// // 2.checkLeapYear Here 
 
 function checkLeapYear(year) {
     if (year % 4 == 0 && year % 100 != 0) {
@@ -26,26 +26,38 @@ checkLeapYear();
 
 // 3.evalNumbers Start
 
-function evalNumbers(nu1, nu2, z) {
-}
 
-evalNumbers()
+// function evalNumbers(num1, num2, oparation) {
+//     if (num1, num2, oparation) {
+//         console.log(num1 + num2)
+//     }
+//     else if (num1, num2, oparation) {
+//         console.log(num1 - num2)
+//     }
+// }
+
+// evalNumbers()
 
 // 3.evalNumbers Close
 
 // 4.findLargest Here
 
-function findLargest(sh1, sh2, sh3,) {
-    if (sh1 > sh2 && sh1 > sh3) {
-        console.log("Is a bigest number")
+function findLargest(num1, num2, num3,) {
+    if (num1 > num2 && num1 > num3) {
+        console.log(num1)
     }
-    else if (sh2 > sh3) {
-        console.log("Is a bigest number")
+    else if (num2 > num1 && num2 > num3) {
+        console.log(num2)
     }
     else {
-        console.log("Is a bigest number")
+        console.log(num3)
     }
 }
+
 findLargest()
 
 // 4.findLargest Close
+
+
+
+
